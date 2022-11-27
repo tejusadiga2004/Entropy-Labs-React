@@ -20,18 +20,15 @@ const Home = (props) => {
           <Navbar rootClassName="navbar-root-class-name"></Navbar>
         </div>
         <div className="home-hero">
-          <img
-            alt="pastedImage"
-            src="/playground_assets/muteonbessel-1200w-900h.png"
-            className="home-pasted-image"
-          />
           <div className="home-content">
             <h1 className="home-title">Micro Mute</h1>
             <span className="home-caption">
               <span>Control your Microphone the way you like </span>
               <span>Keyboard hotkeys</span>
               <br></br>
+              <br></br>
               <span>Push to talk</span>
+              <br></br>
               <br></br>
               <span>Works with any video conferencing app</span>
               <br></br>
@@ -42,6 +39,11 @@ const Home = (props) => {
               className="home-image"
             />
           </div>
+          <img
+            alt="pastedImage"
+            src="/playground_assets/muteonbessel-1200w-900h.png"
+            className="home-pasted-image"
+          />
           <div className="home-container1">
             <img
               alt="image"

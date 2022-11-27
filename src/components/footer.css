@@ -44,6 +44,10 @@
   line-height: 30px;
 }
 .footer-text1 {
+  font-size: 18px;
+  align-self: flex-start;
+}
+.footer-text2 {
   color: #C4C4C4;
   width: 100%;
   font-size: 14px;
