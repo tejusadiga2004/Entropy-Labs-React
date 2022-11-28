@@ -15,7 +15,7 @@ const Navbar = (props) => {
             <Link to="/" className="navbar-link link">
               {props.Link_1}
             </Link>
-            <Link to="/" className="navbar-link1 link">
+            <Link to="/privacy-policy" className="navbar-link1 link">
               {props.Link_11}
             </Link>
           </div>

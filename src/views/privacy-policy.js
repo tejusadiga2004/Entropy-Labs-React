@@ -16,7 +16,7 @@ const PrivacyPolicy = (props) => {
         <meta property="og:description" content="Description of the website" />
       </Helmet>
       <Navbar rootClassName="navbar-root-class-name1"></Navbar>
-      <div className="privacy-policy-div">
+      <div className="privacy-policy-code-embed">
         <DangerousHTML
           html={`<style>
   [data-custom-class='body'], [data-custom-class='body'] * {
@@ -70,9 +70,6 @@ word-break: break-word !important;
         font-family: Arial ;
       }
     </style>
-      </div>
-      <div style="color: #595959;font-size: 14px;font-family: Arial;padding-top:16px;">
-      This privacy policy was created using Termly's <a style="color: rgb(48, 48, 241) !important;" href="https://termly.io/products/privacy-policy-generator/">Privacy Policy Generator</a>.
       </div>`}
         ></DangerousHTML>
       </div>
