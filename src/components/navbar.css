@@ -41,6 +41,13 @@
   font-family: Merriweather;
   font-weight: 900;
 }
+.navbar-link1 {
+  font-size: 12px;
+  align-self: stretch;
+  font-style: normal;
+  font-family: Merriweather;
+  font-weight: 400;
+}
 .navbar-quick-actions {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
@@ -56,6 +63,7 @@
 .navbar-root-class-name {
   align-self: flex-start;
 }
+
 @media(max-width: 991px) {
   .navbar-navbar {
     align-items: center;

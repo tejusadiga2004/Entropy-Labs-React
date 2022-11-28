@@ -21,15 +21,15 @@ const Footer = (props) => {
 }
 
 Footer.defaultProps = {
-  text: '© 2022 Entropy Labs. All Rights Reserved.',
-  text1: 'Send your feedback to',
   text2: 'entropylabsindia@gmail.com',
+  text1: 'Send your feedback to',
+  text: '© 2022 Entropy Labs. All Rights Reserved.',
 }
 
 Footer.propTypes = {
-  text: PropTypes.string,
-  text1: PropTypes.string,
   text2: PropTypes.string,
+  text1: PropTypes.string,
+  text: PropTypes.string,
 }
 
 export default Footer

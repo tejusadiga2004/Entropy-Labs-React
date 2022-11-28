@@ -15,6 +15,9 @@ const Navbar = (props) => {
             <Link to="/" className="navbar-link link">
               {props.Link_1}
             </Link>
+            <Link to="/" className="navbar-link1 link">
+              {props.Link_11}
+            </Link>
           </div>
         </div>
         <div className="navbar-quick-actions">
@@ -63,6 +66,7 @@ Navbar.defaultProps = {
     'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/4a46e3f6-a2fb-4002-a0ce-bb246bd8698d/191f70d5-9a02-4b3a-a398-d21659aa57d0?org_if_sml=1195',
   pastedImage_alt: 'pastedImage',
   rootClassName: '',
+  Link_11: 'Privacy Policy',
 }
 
 Navbar.propTypes = {
@@ -70,6 +74,7 @@ Navbar.propTypes = {
   pastedImage_src: PropTypes.string,
   pastedImage_alt: PropTypes.string,
   rootClassName: PropTypes.string,
+  Link_11: PropTypes.string,
 }
 
 export default Navbar
