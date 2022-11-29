@@ -10,10 +10,10 @@ const PrivacyPolicy = (props) => {
   return (
     <div className="privacy-policy-container">
       <Helmet>
-        <title>PrivacyPolicy - Finbest</title>
-        <meta name="description" content="Description of the website" />
-        <meta property="og:title" content="PrivacyPolicy - Finbest" />
-        <meta property="og:description" content="Description of the website" />
+        <title>PrivacyPolicy - Entropy Labs</title>
+        <meta name="description" content="Entropy Labs" />
+        <meta property="og:title" content="PrivacyPolicy - Entropy Labs" />
+        <meta property="og:description" content="Entropy Labs" />
       </Helmet>
       <Navbar rootClassName="navbar-root-class-name1"></Navbar>
       <div className="privacy-policy-code-embed">

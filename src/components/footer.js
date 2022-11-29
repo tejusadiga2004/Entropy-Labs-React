@@ -26,19 +26,19 @@ const Footer = (props) => {
 
 Footer.defaultProps = {
   text2: 'entropylabsindia@gmail.com',
-  text1: 'Send your feedback to',
-  text: '© 2022 Entropy Labs. All Rights Reserved.',
   text3: 'Link',
+  text1: 'Send your feedback to',
   link_text: 'https://example.com',
+  text: '© 2022 Entropy Labs. All Rights Reserved.',
   mailLink: 'entropylabsindia@gmail.com',
 }
 
 Footer.propTypes = {
   text2: PropTypes.string,
-  text1: PropTypes.string,
-  text: PropTypes.string,
   text3: PropTypes.string,
+  text1: PropTypes.string,
   link_text: PropTypes.string,
+  text: PropTypes.string,
   mailLink: PropTypes.string,
 }
 

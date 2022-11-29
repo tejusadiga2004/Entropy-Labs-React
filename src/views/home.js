@@ -10,10 +10,10 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Finbest</title>
-        <meta name="description" content="Description of the website" />
-        <meta property="og:title" content="Finbest" />
-        <meta property="og:description" content="Description of the website" />
+        <title>Entropy Labs</title>
+        <meta name="description" content="Entropy Labs" />
+        <meta property="og:title" content="Entropy Labs" />
+        <meta property="og:description" content="Entropy Labs" />
       </Helmet>
       <div className="home-header">
         <div className="home-heading">
@@ -79,28 +79,28 @@ const Home = (props) => {
           </div>
           <div className="home-container5">
             <img
-              src="/playground_assets/googlemeet-500h-1500h.png"
               alt="image"
+              src="/playground_assets/googlemeet-500h-1500h.png"
               className="home-image06"
             />
             <img
-              src="/playground_assets/zoom-500h-1500h.png"
               alt="image"
+              src="/playground_assets/zoom-500h-1500h.png"
               className="home-image07"
             />
             <img
-              src="/playground_assets/teams-500h-1500h.png"
               alt="image"
+              src="/playground_assets/teams-500h-1500h.png"
               className="home-image08"
             />
             <img
-              src="/playground_assets/slack-500h-1500h.png"
               alt="image"
+              src="/playground_assets/slack-500h-1500h.png"
               className="home-image09"
             />
             <img
-              src="/playground_assets/gtm-500h-1500h.png"
               alt="image"
+              src="/playground_assets/gtm-500h-1500h.png"
               className="home-image10"
             />
           </div>
