@@ -6,7 +6,7 @@ import './footer.css'
 
 const Footer = (props) => {
   return (
-    <div className="footer-footer">
+    <div className={`footer-footer ${props.rootClassName} `}>
       <div className="footer-heading">
         <span className="footer-text">{props.text1}</span>
         <a
@@ -29,6 +29,7 @@ Footer.defaultProps = {
   link_text: '',
   text: '© 2022 Entropy Labs. All Rights Reserved.',
   mailLink: 'entropylabsindia@gmail.com',
+  rootClassName: '',
 }
 
 Footer.propTypes = {
@@ -38,6 +39,7 @@ Footer.propTypes = {
   link_text: PropTypes.string,
   text: PropTypes.string,
   mailLink: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default Footer

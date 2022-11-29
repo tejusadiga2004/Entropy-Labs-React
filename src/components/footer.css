@@ -39,6 +39,7 @@
   max-width: 100%;
   line-height: 21px;
 }
+
 @media(max-width: 1600px) {
   .footer-heading {
     max-width: 100%;
@@ -53,6 +54,12 @@
     font-size: 30px;
     max-width: 100%;
     align-self: flex-start;
+  }
+}
+@media(max-width: 1200px) {
+  .footer-footer {
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
 @media(max-width: 991px) {
@@ -96,5 +103,8 @@
   }
   .footer-text1 {
     font-size: 14px;
+  }
+  .footer-root-class-name {
+    align-self: center;
   }
 }
