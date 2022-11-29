@@ -22,7 +22,7 @@ const Home = (props) => {
         <div className="home-hero">
           <img
             alt="pastedImage"
-            src="/playground_assets/muteonbessel-1200w-900h.png"
+            src="/playground_assets/muteonbessel-1200w-1000h.png"
             className="home-pasted-image"
           />
           <div className="home-content">

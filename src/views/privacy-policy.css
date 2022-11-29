@@ -11,3 +11,8 @@
   width: 800px;
   padding-top: 50px;
 }
+@media(max-width: 1600px) {
+  .privacy-policy-code-embed {
+    width: 80%;
+  }
+}
