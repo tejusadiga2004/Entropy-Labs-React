@@ -10,10 +10,8 @@ const Footer = (props) => {
       <div className="footer-heading">
         <span className="footer-text">{props.text1}</span>
         <a
-          href={props.link_text}
+          href="mailto:entropylabsindia@gmail.com?subject=Micro Mute Feedback"
           src="mailto:entropylabsindia@gmail.com"
-          target="_blank"
-          rel="noreferrer noopener"
           className="footer-link"
         >
           {props.mailLink}
@@ -28,7 +26,7 @@ Footer.defaultProps = {
   text2: 'entropylabsindia@gmail.com',
   text3: 'Link',
   text1: 'Send your feedback to',
-  link_text: 'https://example.com',
+  link_text: '',
   text: '© 2022 Entropy Labs. All Rights Reserved.',
   mailLink: 'entropylabsindia@gmail.com',
 }
