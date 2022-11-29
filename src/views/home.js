@@ -38,11 +38,18 @@ const Home = (props) => {
               <span>    • Works with any video conferencing app</span>
               <br></br>
             </span>
-            <img
-              alt="image"
-              src="/playground_assets/appstoreicon.svg"
-              className="home-image"
-            />
+            <a
+              href="https://apps.apple.com/us/app/micromute/id6444765920"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link"
+            >
+              <img
+                alt="image"
+                src="/playground_assets/appstoreicon.svg"
+                className="home-image"
+              />
+            </a>
           </div>
           <div className="home-container1">
             <div className="home-container2">
@@ -106,7 +113,7 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <Footer></Footer>
+      <Footer rootClassName="footer-root-class-name"></Footer>
     </div>
   )
 }
