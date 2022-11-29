@@ -66,13 +66,25 @@
 @media(max-width: 767px) {
   .footer-footer {
     gap: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-halfunit);
   }
   .footer-heading {
     gap: var(--dl-space-space-halfunit);
+    height: var(--dl-size-size-medium);
+    justify-content: flex-end;
   }
   .footer-text {
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .footer-link {
+    font-size: 16px;
+  }
+  .footer-text1 {
+    font-size: 16px;
+    line-height: 16px;
   }
 }
 @media(max-width: 479px) {

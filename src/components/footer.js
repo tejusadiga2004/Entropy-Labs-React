@@ -16,8 +16,8 @@ const Footer = (props) => {
         >
           {props.mailLink}
         </a>
+        <span className="footer-text1">{props.text}</span>
       </div>
-      <span className="footer-text1">{props.text}</span>
     </div>
   )
 }
