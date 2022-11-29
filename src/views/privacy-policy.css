@@ -5,6 +5,7 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  background-color: var(--dl-color-primary-700);
 }
 .privacy-policy-code-embed {
   width: 800px;
