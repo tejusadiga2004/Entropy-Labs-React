@@ -20,17 +20,22 @@ const Home = (props) => {
           <Navbar rootClassName="navbar-root-class-name"></Navbar>
         </div>
         <div className="home-hero">
+          <img
+            alt="pastedImage"
+            src="/playground_assets/muteonbessel-1200w-900h.png"
+            className="home-pasted-image"
+          />
           <div className="home-content">
             <h1 className="home-title">Micro Mute</h1>
+            <span className="home-text">
+              Control your Microphone the way you like
+            </span>
             <span className="home-caption">
-              <span>Control your Microphone the way you like </span>
-              <span>Keyboard hotkeys</span>
+              <span>    • Keyboard hotkeys</span>
               <br></br>
+              <span>    • Push to talk</span>
               <br></br>
-              <span>Push to talk</span>
-              <br></br>
-              <br></br>
-              <span>Works with any video conferencing app</span>
+              <span>    • Works with any video conferencing app</span>
               <br></br>
             </span>
             <img
@@ -39,36 +44,64 @@ const Home = (props) => {
               className="home-image"
             />
           </div>
-          <img
-            alt="pastedImage"
-            src="/playground_assets/muteonbessel-1200w-900h.png"
-            className="home-pasted-image"
-          />
           <div className="home-container1">
+            <div className="home-container2">
+              <img
+                alt="image"
+                src="/playground_assets/zoom-500h-1500h.png"
+                className="home-image01"
+              />
+              <img
+                alt="image"
+                src="/playground_assets/slack-500h-1500h.png"
+                className="home-image02"
+              />
+            </div>
+            <div className="home-container3">
+              <img
+                alt="image"
+                src="/playground_assets/googlemeet-500h-1500h.png"
+                className="home-image03"
+              />
+              <img
+                alt="image"
+                src="/playground_assets/teams-500h-1500h.png"
+                className="home-image04"
+              />
+            </div>
+            <div className="home-container4">
+              <img
+                alt="image"
+                src="/playground_assets/gtm-500h-1500h.png"
+                className="home-image05"
+              />
+            </div>
+          </div>
+          <div className="home-container5">
             <img
-              alt="image"
-              src="/playground_assets/slack-500h-1500h.png"
-              className="home-image1"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/zoom-500h-1500h.png"
-              className="home-image2"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/teams-500h-1500h.png"
-              className="home-image3"
-            />
-            <img
-              alt="image"
               src="/playground_assets/googlemeet-500h-1500h.png"
-              className="home-image4"
+              alt="image"
+              className="home-image06"
             />
             <img
+              src="/playground_assets/zoom-500h-1500h.png"
               alt="image"
+              className="home-image07"
+            />
+            <img
+              src="/playground_assets/teams-500h-1500h.png"
+              alt="image"
+              className="home-image08"
+            />
+            <img
+              src="/playground_assets/slack-500h-1500h.png"
+              alt="image"
+              className="home-image09"
+            />
+            <img
               src="/playground_assets/gtm-500h-1500h.png"
-              className="home-image5"
+              alt="image"
+              className="home-image10"
             />
           </div>
         </div>

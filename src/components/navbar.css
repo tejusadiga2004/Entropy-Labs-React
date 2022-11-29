@@ -48,18 +48,6 @@
   font-family: Merriweather;
   font-weight: 400;
 }
-.navbar-quick-actions {
-  gap: var(--dl-space-space-oneandhalfunits);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-}
-.navbar-hamburger-menu {
-  width: 20px;
-  height: 12px;
-  display: none;
-}
 .navbar-root-class-name {
   align-self: flex-start;
 }
@@ -70,15 +58,26 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
-  .navbar-links {
-    display: none;
-  }
-  .navbar-hamburger-menu {
-    display: flex;
-  }
 }
 @media(max-width: 767px) {
   .navbar-navbar {
     align-items: center;
+  }
+  .navbar-links {
+    display: flex;
+  }
+}
+@media(max-width: 479px) {
+  .navbar-links {
+    display: flex;
+  }
+  .navbar-link {
+    font-size: 36;
+    font-style: normal;
+    font-family: Merriweather;
+    font-weight: 900;
+  }
+  .navbar-link1 {
+    display: none;
   }
 }

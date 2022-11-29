@@ -20,14 +20,6 @@ const Navbar = (props) => {
             </Link>
           </div>
         </div>
-        <div className="navbar-quick-actions">
-          <img
-            id="open-mobile-menu"
-            alt={props.pastedImage_alt}
-            src={props.pastedImage_src}
-            className="navbar-hamburger-menu"
-          />
-        </div>
       </div>
       <div className="">
         <DangerousHTML
@@ -61,20 +53,15 @@ closeButton.addEventListener("click", function() {
 }
 
 Navbar.defaultProps = {
-  Link_1: 'Entropy Labs',
-  pastedImage_src:
-    'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/4a46e3f6-a2fb-4002-a0ce-bb246bd8698d/191f70d5-9a02-4b3a-a398-d21659aa57d0?org_if_sml=1195',
-  pastedImage_alt: 'pastedImage',
-  rootClassName: '',
   Link_11: 'Privacy Policy',
+  Link_1: 'Entropy Labs',
+  rootClassName: '',
 }
 
 Navbar.propTypes = {
-  Link_1: PropTypes.string,
-  pastedImage_src: PropTypes.string,
-  pastedImage_alt: PropTypes.string,
-  rootClassName: PropTypes.string,
   Link_11: PropTypes.string,
+  Link_1: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default Navbar
