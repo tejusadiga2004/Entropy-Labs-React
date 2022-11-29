@@ -22,7 +22,7 @@ const Home = (props) => {
         <div className="home-hero">
           <img
             alt="pastedImage"
-            src="/playground_assets/muteonbessel-1200w-1000h.png"
+            src="/playground_assets/muteonbessel-1200w-1300h.png"
             className="home-pasted-image"
           />
           <div className="home-content">
@@ -48,31 +48,31 @@ const Home = (props) => {
             <div className="home-container2">
               <img
                 alt="image"
-                src="/playground_assets/zoom-500h-1500h.png"
+                src="/playground_assets/zoom-500h-1800h.png"
                 className="home-image01"
               />
               <img
                 alt="image"
-                src="/playground_assets/slack-500h-1500h.png"
+                src="/playground_assets/slack-500h-1800h.png"
                 className="home-image02"
               />
             </div>
             <div className="home-container3">
               <img
                 alt="image"
-                src="/playground_assets/googlemeet-500h-1500h.png"
+                src="/playground_assets/googlemeet-500h-1800h.png"
                 className="home-image03"
               />
               <img
                 alt="image"
-                src="/playground_assets/teams-500h-1500h.png"
+                src="/playground_assets/teams-500h-1800h.png"
                 className="home-image04"
               />
             </div>
             <div className="home-container4">
               <img
                 alt="image"
-                src="/playground_assets/gtm-500h-1500h.png"
+                src="/playground_assets/gtm-500h-1800h.png"
                 className="home-image05"
               />
             </div>
@@ -80,27 +80,27 @@ const Home = (props) => {
           <div className="home-container5">
             <img
               alt="image"
-              src="/playground_assets/googlemeet-500h-1500h.png"
+              src="/playground_assets/googlemeet-500h-1800h.png"
               className="home-image06"
             />
             <img
               alt="image"
-              src="/playground_assets/zoom-500h-1500h.png"
+              src="/playground_assets/zoom-500h-1800h.png"
               className="home-image07"
             />
             <img
               alt="image"
-              src="/playground_assets/teams-500h-1500h.png"
+              src="/playground_assets/teams-500h-1800h.png"
               className="home-image08"
             />
             <img
               alt="image"
-              src="/playground_assets/slack-500h-1500h.png"
+              src="/playground_assets/slack-500h-1800h.png"
               className="home-image09"
             />
             <img
               alt="image"
-              src="/playground_assets/gtm-500h-1500h.png"
+              src="/playground_assets/gtm-500h-1800h.png"
               className="home-image10"
             />
           </div>
